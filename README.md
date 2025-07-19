@@ -15,7 +15,16 @@
 
     <div class="form-container">
       <h2 class="h2">Log in </h2>
-      
+      <form>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required />
+
+        <button type="submit" class="login-btn">Log In</button>
+        <p class="bottom-text">Don't have an account? <a href="#">Sign up</a></p>
+      </form>
     </div>
   </div>
 </body>
